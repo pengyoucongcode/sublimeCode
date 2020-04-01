@@ -1,0 +1,46 @@
+<!-- 扩展时用 Tab 键或 Ctrl+E -->
+<!-- 使用!+Tab扩展html文档基本结构 -->
+<!-- 也可以用Ctrl+E 进行扩展-->
+<!-- Ctrl+/注释，Ctrl+Shift+/反注释 -->
+<!-- 添加标签： 标签名+Tab，对于有默认的重要属性的标签也会自动扩展
+标签名{内容},将以带内容的形式扩展标签
+标签名[属性名=属性值]将以带有指定属性值得形式扩展
+-->
+<!--
+添加嵌套标签： 上级标签名>下级标签名，p>span,p[style=text-align:center]{p内容}>span{span内容}
+-->
+ <!--
+ 添加同级标签： 上级标签名>下级标签名+同级标签:
+p[style=text-align:center]{测试同级标签}>img[src=# alt=pic]{图片}+a[href=#]{链接}
+-->
+<!--
+标签分组： (上级标签名>下级标签名)+(上级标签名>下级标签名):
+(p[style=text-align:center]{测试同级标签}>img[src=# alt=pic]{图片})+(p[style=text-align:center]{测试同级标签}>a[href=#]{链接})
+-->
+ <!--
+ 快速生成多个元素，以无序列表为例： ul>li*3，也就是：父级标签名>子标签名*个数
+-->
+<!--
+	快速生成文本内容： lorem+Tab键，lorem单词个数:lorem4
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sublime快捷键</title>
+</head>
+<body>
+	<p style="text-align:center">p内容<span>span内容</span></p>
+	<p style="text-align:center">测试同级标签<img src="#" alt="pic">图片</img><a href="#">链接</a></p>
+	<p style="text-align:center">测试同级标签<img src="#" alt="pic">图片</img></p>
+	<p style="text-align:center">测试同级标签<a href="#">链接</a></p>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex velit ea enim itaque ducimus qui dolores, ullam debitis, officia atque expedita nam voluptates nihil nesciunt non quibusdam fuga sit asperiores.
+
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, obcaecati!
+</body>
+</html>

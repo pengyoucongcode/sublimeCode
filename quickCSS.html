@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS相关的sublime扩展方式</title>
+	<style>
+		/*快速添加CSS样式*/
+		div{
+			width: 30px; /*w30扩展*/
+			height: 30px; /*h30扩展*/
+			margin: 10px; /*m10扩展*/
+			padding: 5px; /*pd5扩展*/
+			line-height: 2em; /*lh2em扩展*/
+			background-color: #fff; /*bgc扩展*/
+			/*
+			其他都是类似的，规则是每个单词的首字母加取值，如 border-bottom:10px;可用bb10扩展生成
+			 */
+			border-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+	link:css 扩展后可以形成CSS文件的引入
+	标签名#id名扩展生成带id属性值的元素标签
+	标签名.类名扩展生成带class属性的元素标签
+  -->
+  <link rel="stylesheet" href="one.css">
+  <div id="t1"></div>
+  <div class="aclass"></div>
+</body>
+</html>

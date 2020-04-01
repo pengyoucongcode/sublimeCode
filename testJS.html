@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JSTest</title>
+</head>
+<body>
+	<p id="changeStyle">通过DOM改变样式，字号变为24px。</p>
+	<button onclick="document.getElementById('changeStyle').style.fontSize='24px'">
+		点击改变字号
+	</button>
+	<script>
+	function load()
+	{
+		window.open('http://www.baidu.com','-blank','width=600,height=400,top=100px,left=0px')
+	}
+	</script>
+	<button onclick="load()">百度</button>
+	<button onclick="alert('你好，世界！')">Hello</button>
+</body>
+</html>

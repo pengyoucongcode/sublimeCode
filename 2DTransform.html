@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2D 转换</title>
+	<style>
+	p{
+			font-size: 16px;
+			text-indent: 2em;
+			line-height: 1.5em;
+			font-weight: bold;
+		}
+		body{
+			text-align: center;
+			align-items:center;
+		}
+		h1,h2,h3,h4,h5,h6{
+			text-align: center;
+			text-shadow:2px 2px 2px gray;
+		}
+		div{
+			height: 100px;
+			width: 150px;
+			border: 5px solid blue;
+			border-top-left-radius: 40px 20px;
+			border-bottom-right-radius: 20px;
+		}
+		.box{
+			width: 100px;
+			height: 75px;
+			background-color: #ccc;
+			border: 1px solid black;
+			vertical-align: middle;
+			line-height: 80px;
+			margin: 0 auto;
+		}
+		.box1{
+			width: 100px;
+			height: 75px;
+			background-color: #ccc;
+			border: 1px solid black;
+			vertical-align: middle;
+			line-height: 40px;
+			margin: 0 auto;
+		}
+		.box2{
+			width: 100px;
+			height: 75px;
+			background-color: #ccc;
+			border: 1px solid black;
+			vertical-align: middle;
+			line-height: 40px;
+			margin: 0 auto;
+		}
+		.box1:hover{
+			transform: scale(1.5);
+		}
+		.box2:hover{
+			transform: scale(0.5);
+		}
+		#rotateDiv{
+			transform:rotate(30deg);
+		}
+		.rotateDiv1{
+			transform:rotate(-30deg);
+		}
+	</style>
+</head>
+<body>
+	<h1>2D 转换</h1>
+	<p>
+		2D 转换方法包括对元素进行旋转，缩放、移动和拉伸。通过<strong>transform</strong>学习，
+		其不同取值通过不同函数来完成，常用的有<strong>rotate()</strong>和<strong>scale()</strong>
+		前者用于旋转，后者用于缩放。
+	</p>
+	<h2>Rotate 函数</h2>
+	<p>
+		示例如下：
+	</p>
+	<div class="box">Web 前端开发</div>
+	<div id="rotateDiv" class="box">Web 前端开发</div>
+	<div class="box rotateDiv1">Web 前端开发</div>
+	<p>
+		rotate() 函数的参数一个以<strong>deg</strong>为单位的角度值，正值表示顺时针方向，负值表示逆时针方向。
+	</p>
+	<h2>scale 函数</h2>
+	<p>
+		scale(x,y) 的两个参数中 x 表示水平缩放的倍数，y 表示垂直缩放的倍数。当 y 省略时表示垂直方向的缩放程度同水平方向的一样。参数取值以<strong>正数</strong>
+		为取值范围；其中当取值在0~1之间时表示缩小，大于1时表示放大。示例如下：
+	</p>
+	<div class="box1">鼠标悬停时盒子放大</div>
+	<div class="box2">鼠标悬停时盒子缩小</div>
+</body>
+</html>

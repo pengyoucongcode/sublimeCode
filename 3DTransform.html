@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3D变换</title>
+	<style>
+		p{
+			font-size: 16px;
+			text-indent: 2em;
+			line-height: 1.5em;
+			font-weight: bold;
+		}
+		body{
+			text-align: center;
+			align-items:center;
+		}
+		h1,h2,h3,h4,h5,h6{
+			text-align: center;
+			text-shadow:2px 2px 2px gray;
+		}
+		#stage{
+			width: 1000px;
+			margin: 0 auto;
+			perspective:100px;
+		}
+		.box{
+			width: 200px;
+			height: 150px;
+			border: 10px solid red;
+			border-width: 10px;
+			float: left;
+			text-align: center;
+			transition: linear 2s;
+			background-color: #ABC;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+		}
+		img{
+			width: 100px;
+			height: 75px;
+		}
+		.f2{
+			font-size: 128px;
+			letter-spacing: 1em;
+			color: white;
+			text-shadow: 2px 2px 4px #000;
+			text-align: center;
+		}
+		.x:hover{
+			transform: rotateX(90deg);
+		}
+		.y:hover{
+			transform:rotateY(90deg);
+		}
+		.z:hover{
+			transform:rotateZ(90deg);
+		}
+		.xyz:hover{
+			transform:rotateZ(45deg);
+		}
+	</style>
+</head>
+<body>
+	<h1>3D变换</h1>
+	<p>
+		涉及到的属性有：transform-style:preserve-3d;transform 属性的rotateX() 函数、rotateY() 函数
+		rotateZ() 函数和 perspective 属性。分别起到 3D、旋转和透视的效果。perspective 起到一个近大远小的效果，通常用像素值来取值，像素值越小表示离舞台越近，像素值越大表示离舞台越远。
+		Z轴方向是自屏幕向外45°角。 作3D变换时，通常将内容放在一个父容器中，父容器放在一个舞台容器中。
+		示例如下：
+	</p>
+	<div id="stage">
+		<div class="box x f2">
+			浮
+		</div>
+		<div class="box y f2">
+			雕
+		</div>
+		<div class="box z f2">
+			效
+		</div>
+		<div class="box xyz f2">
+			果
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>布局与定位</title>
+	<style>
+		p{
+			font-size: 16px;
+			text-indent: 2em;
+			line-height: 1.5em; 
+		}
+		#box{
+			width: 500px;
+			height: 100px;
+			border: 2px solid;
+			padding: 2px;
+			margin: 10px;
+			overflow: auto; /*当内容溢出盒子大小时，hidden-隐藏溢出部分内容，scroll-显示滚动条，auto-自动*/
+		}
+		.line{
+			height: 1px;
+			width: 500px;
+			border-top: 1px solid #e5e5e5;
+		}
+		#b{
+			width: 500px;
+			height: 200px;
+		}
+		#b1{
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			float: left;
+			background-color: yellow;
+		}
+		#b2{
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			float: right;
+			background-color: blue;
+		}
+		#b3{
+			width: 50px;
+			height: 200px;
+			float: left;
+			border: 1px solid red;
+			background-color: red;
+			margin-left: 5px;
+		}
+		#b4{
+			width: 200px;
+			height: 300px;
+			float: left;
+			border: 1px solid red;
+			background-color: black;
+		}
+		.box2{
+			width: 200px;
+			height: 300px;
+			float: left;
+			border: 1px solid red;
+			background-color: black;
+		}
+		.box1{
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			float: left;
+			background-color: blue;
+		}
+		.sbox{
+			width: 400px;
+			height: 500px;
+		}
+		.bbox{
+			width: 500px;
+			height: 500px;
+		}
+		.bf{
+			width: 500px;
+			height: 20px;
+			border: 1px solid red;
+			clear: both;
+			background-color: blue;
+		}
+		#fix-box{
+			width: 200px;
+			height: 200px;
+			border: 1px solid red;
+			position: fixed;
+			left: 50%;
+			top: 50px;
+		}
+		.rl-box{
+			width:160px;
+			height: 300px;
+			position: relative;
+			top: 25%;
+			left: 25%;
+			background-color: darkblue;
+		}
+		.ab-box{
+			width:160px;
+			height: 300px;
+			position: absolute;
+			top: 25%;
+			right: 0;
+			background-color: darkblue;
+		}
+	</style>
+</head>
+<body>
+	<h3>盒子模型</h3>
+	<p>页面元素大小，边框，与其他元素的距离<br>
+		页面上的任何元素都可以看做是<strong>盒子</strong>,一个盒子由里面的内容-content,及其内容的宽度-width,高度-height,padding-内边距,border-边框,margin-外边距组成。<br>
+		padding-top 上内边距，padding-right 右内边距，padding-bottom 下内边距，padding-left 左内边距<br>
+		border，margin 也是类似的有上右下左四个属性。<br>
+		padding:top right bottom left<br>
+		简写形式：padding：1px; 表示上右下左四个方向的取值一样<br>
+		padding: 1px 2px;  表示上下方向取值一样，左右取值一样<br>
+		margin 也同上类似; margin 在垂直上有个合并，取两个元素margin值最大的一个。<br>
+		margin:0 auto; 可以起到一个水平居中的效果。<br>
+	</p>
+	<p>
+		一个盒子的实际宽度、高度由content+padding+border+margin
+	</p>
+	<p>
+		border-width 表示边框粗细，可选值像素大小px，thin细，medium中，thick粗
+		border-style 表示边框样式，可选值：dashed 虚线，dotted 点，solid 实线，double 双实线
+		border-color 颜色
+		往往可以简写成<strong>border:width style color</strong>
+	</p>
+	<div class="line"></div>
+	<div id="box">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos deleniti, delectus, odio debitis rerum iste vero itaque recusandae saepe reiciendis provident suscipit ipsam, tempora molestias fuga facilis odit, cum nesciunt!
+	</div>
+	<h3>定位机制</h3>
+	<p>文档流，浮动定位，层定位</p>
+	<p>
+		默认文档流定位，从上到下从左到右；<br>
+		浮动定位，使用 float 属性设置，左浮动、右浮动，不浮动<br>
+		层定位，使用 position 属性设置<br>
+	</p>
+	<h4>文档流定位</h4>
+	<p>
+		float 的可选值有 block，inline 和 inline-block，可以用 display 属性进行元素类型转换。
+		block 属性的元素要独占一行，元素的 height、width、margin、padding 属性都可以设置。
+		具有 block 属性的常见元素有&lt;div&gt;、&lt;p&gt;、&lt;h1...6&gt;、&lt;ol&gt;、&lt;ul&gt;、&lt;table&gt;、&lt;form&gt;；其他非 block 类型的元素可通过 display 属性设置成 block。inline 类型元素不用独占一行，高度和宽度不可变，width 就是它包含的文字或图片的宽度，不可改变，
+		具有此类型的元素有:&lt;span&gt; 和 &lt;a&gt;，其他非inline类型的元素同样可以通过用 display: inline;设置成inline类型；inline 属性默认元素之间带有间隙。
+		inline-block 类型元素同时具有 inline 和 block 的特点，不独占一行，但是高度宽度内外间距都可以设置，
+		具有 inline-block 属性的元素有&lt;img&gt;。当 display 取值为 none 则元素不显示。
+	</p>
+	<h4>float 浮动定位</h4>
+	<p>
+		浮动定位 float 可选值有 left 左浮动与 right 右浮动和 none 不浮动。示例如下：
+	</p>
+	<div id="b">
+		<div id="b1"></div>
+		<div id="b3"></div>
+		<div id="b2"></div>
+	</div>
+	<p>
+		以一行三个盒子为例，三个盒子浮动方向相同且外层盒子宽度小于三个盒子宽度之和时：第一种可能情况是三个盒子宽度一样时，第三个盒子会下降；第二种情况第一个盒子高度较大，则第三个盒子会被第一个盒子卡住：
+	</p>
+	<div class="bbox">
+		<div class="box1"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+	</div>
+	<div class="bbox">
+		<div id="b4"></div>
+		<div class="box1"></div>
+		<div class="box1"></div>
+	</div>
+	<p>
+		clear 可用于清除浮动，可选值有：both，清除左右两边的浮动；left/ringt 清除左/右浮动，none 默认值，只在需要移除指定的清除值时用到。
+	</p>
+	<div class="bbox">
+		<div class="box2"></div>
+		<div class="box1"></div>
+		<div class="bf"></div>
+	</div>
+	<h4>层定位</h4>
+	<p>
+		当我们希望一个网页元素可以层叠在另外一个网页元素的上面时，可以考虑用层定位。
+		层定位先用 position 指定定位参考类型，可选值：fixed 固定定位，relative 相对定位，absolute 绝对定位；
+		接着用 left-与上级盒子左边框的距离，right-与上级盒子右边框的距离，top-与上级盒子上边框的距离，
+		bottom-与上级盒子底边框的距离，z-index 用于起到层的定位，值大的在上面。
+	</p>
+	<p>
+		 position 属性默认值为 static ，属于文档流，此时 top、bottom、left、right 统统无效。
+		 fixed 参照物是浏览器窗口，
+		 relative 参照物是其直接父元素，
+		 absolute 参照物是 static 外的第一个（不一定是直接父元素）父元素。
+	</p>
+	<div id="fix-box"></div>
+	<p>相对定位</p>
+	<div class="bbox" style="background:#bcd;">
+		<div class="rl-box"></div>
+		<div class="box1"></div>
+	</div>
+	<p>绝对定位-第一种情况</p>
+	<div class="bbox" style="background:#bcd;position:relative;">
+		<div class="ab-box"></div>
+		<div class="box1"></div>
+	</div>
+	<p>绝对定位第二种情况</p>
+	<div class="bbox" style="background:#bcd;">
+		<div class="ab-box"></div>
+		<div class="box1"></div>
+	</div>
+	<p>
+		因为 div 的 position 默认值为 static，所以此时第一个子盒子参考的不是直接父元素，而是body元素。
+	</p>
+	<div style="width:600px;height:600px;background-color:#cde;position:relative;">
+		<div class="bbox" style="background:#bcd;">
+		<div class="ab-box"></div>
+		<div class="box1"></div>
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+	color:red;
+	font-size: 24px;
+}
+.pic{
+	width: 800px;
+	height: 515px;
+}
+.d1{
+	padding-left: 25%
+}
+.d2{
+	text-align: center;
+	margin: 0 auto;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圆角边框与阴影</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding:0;
+		}
+		div{
+			height: 100px;
+			width: 150px;
+			border: 5px solid blue;
+			border-top-left-radius: 40px 20px;
+			border-bottom-right-radius: 20px;
+		}
+		p{
+			font-size: 16px;
+			text-indent: 2em;
+			line-height: 1.5em;
+			font-weight: bold;
+		}
+
+		table{
+			border:1px solid black;
+		}
+		.tbh{
+			background-color: gray;
+		}
+		tr:nth-child(odd){
+			background-color:#EAF2D3;
+		}
+		tr:nth-child(even){
+			background-color: #AAFFC3;
+		}
+		.ts{
+			text-align: center;
+		}
+		.title-box{
+			width: 350px;
+			height: 50px;
+			text-align: center;
+			border: 2px solid #a1a1a1;
+			background-color: #ddd;
+			border-radius: 25px;
+		}
+		.circle{
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			border: 2px solid #a1a1a1;
+			border-radius: 50px;
+		}
+		.outset-box{
+			width: 300px;
+			height: 100px;
+			background-color: #f90;
+			box-shadow: 10px 10px 5px #888;
+		}
+	</style>
+</head>
+<body>
+	<p>圆角边框指的是 border-radius 属性，阴影指的是 box-shadow 属性</p>
+	<table id="tb">
+		<thead>
+			<tr>
+				<th class="tbh">浏览器内核</th>
+				<th class="tbh">浏览器</th>
+				<th class="tbh">CSS3前缀</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Webkit</td>
+				<td>Safari,Chrome</td>
+				<td>-webkit-</td>
+			</tr>
+			<tr>
+				<td>Gecko</td>
+				<td>Firefox</td>
+				<td>-moz-</td>
+			</tr>
+			<tr>
+				<td>Presto</td>
+				<td>Opera</td>
+				<td>-o-</td>
+			</tr>
+			<tr>
+				<td>Trident</td>
+				<td>IE</td>
+				<td>-ms-</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>圆角边框</h2>
+	<p>
+		border-top-left-radius 左上角的形状，border-top-right-radius 右上角的形状，
+		border-bottom-left-radius 左下角的形状，border-bottom-right-radius 右下角的形状
+		border-bottom-left-radius：x,y。border-bottom-left-radius：n;垂直和水平一样取值；例子：
+	</p>
+	<div class="ts">
+		<p>Something</p>
+	</div>
+	<div class="title-box" style="margin-top:5px;">Testing Content</div>
+	<div class="circle"></div>
+	<p>
+		box-shadow 用于设置盒子的阴影，其格式值：inset 水平偏移/垂直偏移 模糊距离 颜色。
+		inset 可选，内部阴影；outset 默认值，外部阴影。例子：
+	</p>
+	<div class="outset-box"></div>
+</body>
+</html>

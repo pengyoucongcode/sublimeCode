@@ -1,0 +1,132 @@
+/*CSS选择器*/
+/*全局标签：
+	*{}
+*/
+/*1、标签选择器：
+	标签名:{};
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 14px;
+	text-align: center;
+}
+/*类别选择器：
+	.类别名{}
+用标签的 class 属性进行使用，例如<p class="p_class"></p>
+*/
+.p_class{
+	line-height: 2em; /*段落行间距*/
+	text-indent: 2em; /*段落首行缩进*/
+}
+/*
+id 选择器：
+#id名{}，用标签的id使用,id唯一
+ */
+#aid{
+	font-weight: 12px;
+	text-align: center;
+}
+/*选择器嵌套声明：
+	1、父级标签+空格+子标签{}
+	2、父级标签id+空格+子标签{}
+	3、父级标签+空格+子标签id{}
+	4、父级标签id+空格+子标签id{}
+*/
+p span{
+	color: red;
+}
+#aid span{
+
+}
+p #t1{
+	text-align: center;
+	color: blue;
+	font-size: 16px;
+}
+#aid #t2{
+	color: black;
+}
+/*选择器集中声明：
+	标签名1,标签名2 ... 标签名n{}
+*/
+p,a,pre{
+	text-decoration: none;
+}
+/*
+样式混合使用，指在一个元素中，同时使用标签选择器、id选择器和多个类别选择器，
+使用形式：
+<标签名 id="某id选择器名" class="类别1 类别2 ... 类别n">
+id选择器不能同时使用多个，一次只能唯一使用一个
+此外子标签可以继承父标签的样式
+ */
+/*-------------------------------------*/
+/*文本相关样式*/
+/*1、单位和颜色
+	单位：px-像素，em-字符宽度，%-百分比
+	颜色：
+	1）直接用颜色名指定
+	2）rgb(r,g,b)参数是红蓝绿的分量值，取值大小可以是整数式的0~255，也可以是百分比形式：
+	rgb(110,101,52) rgb(20%,50%,10%)
+	3)rgba(r,g,b,a)第四个参数表示透明度：0.0完全透明，1.0完全不透明，0.5半透明
+	4)#六个十六进制数，如#11aabb，当三个分量取值时成对时，可以简写称#三个十六进制数，例如 #11aabb 可简写成 #1ab
+*/
+.text_class{
+	color: black; /*文本颜色*/
+	letter-spacing: 0.5em; /*字符间距*/
+	line-height: 1.5em;  /*行高 line-height 取值为元素的height值时，可起到垂直居中的效果*/
+	text-decoration: none; /*装饰线，可选值：none-无,overline-字符上边,underline-下划线，line-through-字符中间*/
+	text-align: center;/*对齐方式：center-居中，left-左对齐，right-右对齐，justify-两端对齐*/
+	text-indent: 2em; /*首行缩进*/
+}
+.font_class{
+	font:bold 16px '华文楷体';/*一次性声明字体的所有属性*/
+	font-family: '华文楷体',sans-serif;  /*字体，如华文楷体、幼圆字体等*/
+	font-size: 16px;  /*字号大小*/
+	font-style: italic;  /*斜体*/
+	font-weight: bold;  /*粗体*/
+	/*
+	采用一次声明形式，要注意属性的顺序：
+	font:斜体 粗体 字号/行高 字体;
+	font: italic bold 16px/1.5em '宋体';
+	 */
+}
+/*2、背景样式*/
+.background_class{
+	/*简写形式：background:color picture repeat*/
+	background-color: white;
+	background-image: url("图片路径");
+	background-repeat: no-repeat; /*填充方式：repeat-棋盘格填充，repeat-x：横向填充，repeat-y：纵向填充*/
+}
+/*3、超链接样式：
+	a:link{} - 普通的、未被访问的样式，一般用 a:default声明;
+	a:hover{}-当鼠标悬停在链接上时的样式;
+	a:visited{} - 用户已经访问过的链接的样式;
+	a:active{} - 用户点击链接时的样式;
+	a:hover 必须位于 a:link 和 a:visited 之后，a:active 则必须位于 a:hover 之后;
+	通常在 a:hover 里面设置放大字体，从而形成简单的动态效果;
+*/
+/*4、列表和表格
+	ul 表示无序列表，ol表示有序列表，其共有属性：
+	list-style:; 将所有列表属性一次性声明
+	list-style-image:url();  设置列表项标志图像
+	list-style-position:; 标志的位置，可选值如下：
+	inside-标记缩进到列表区域，outside-标记在列表区域外
+	list-style-type:; 标志的类型，其可选值如下：
+	无序列表：
+	none-无标记	dise-默认，实心圆，circle-空心圆	square-实心方块	decimal-数字标记
+	有序列表：
+	lower-roman-小写罗马数字，upper-roman-大写罗马数字		lower-alpha-小写英文字母
+	upper-alpha-大写英文字母，lower-Greek-小写希腊字母		lower-latin-小写拉丁字母
+	upper-latin-大写拉丁字母
+	表格：
+	width-表宽，height-表高，border-边框，border-collapse:collapse; 合并表格单元格
+	奇偶选择器
+	:nth-child(odd|even){};
+	标签名:第 n 个子元素标签(具体第几个元素,第奇数个元素或第偶数个元素);
+	tr:nth-child(odd){
+		background-color:#EAF2D3;
+	};
+*/

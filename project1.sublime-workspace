@@ -1,0 +1,1105 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"load	abc"
+			],
+			[
+				"sty",
+				"style	(test.html)"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"mrg",
+				"margin"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"ltsp",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font	abc"
+			],
+			[
+				"lin",
+				"linear	(transitionAnimation.html)"
+			],
+			[
+				"tr",
+				"transform	abc"
+			],
+			[
+				"ro",
+				"rotateDiv1	abc"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"ka",
+				"kastlerFont	abc"
+			],
+			[
+				"he",
+				"height	abc"
+			],
+			[
+				"bl",
+				"black	abc"
+			],
+			[
+				"fi",
+				"fixed	abc"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bd",
+				"border"
+			],
+			[
+				"of",
+				"overflow"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"wi",
+				"white"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"mag",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"as",
+				"aside"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pi",
+				"pic"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pre",
+				"preserve-3d"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"onmo",
+				"onmousemove"
+			],
+			[
+				"w",
+				"white"
+			],
+			[
+				"get",
+				"getId"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"d",
+				"dimgray"
+			],
+			[
+				"ma",
+				"major"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"m",
+				"main	method (main)"
+			],
+			[
+				"bgi",
+				"border-image"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"boder-top",
+				"border-top-color"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"bg",
+				"bgi	background-image: url(${0});"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Caffe.html",
+			"settings":
+			{
+				"buffer_size": 4044,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/test.js",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "textFont.html",
+			"settings":
+			{
+				"buffer_size": 3393,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "2DTransform.html",
+			"settings":
+			{
+				"buffer_size": 1864,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "radiusShadow.html",
+			"settings":
+			{
+				"buffer_size": 2102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code01.html",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code02.html",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "location.html",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "code03.html",
+			"settings":
+			{
+				"buffer_size": 826,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "quickCSS.html",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "testJS.html",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 469.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"PCIP",
+				"Package Control: Install Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 685.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/User/Side Bar.sublime-settings",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/User/node.sublime-build",
+		"/D/users/lenovo/Sublime/layoutPosition.html",
+		"/D/users/lenovo/Sublime/textFont.html",
+		"/D/users/lenovo/Sublime/2DTransform.html",
+		"/D/users/lenovo/Sublime/transitionAnimation.html",
+		"/D/users/lenovo/Sublime/3DTransform.html",
+		"/D/users/lenovo/Sublime/radiusShadow.html",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/users/lenovo/Sublime/cssFormat.css",
+		"/D/users/lenovo/Sublime/sublimeUseWay.html",
+		"/D/users/lenovo/Sublime/2DTransform",
+		"/D/users/lenovo/Sublime/one.css",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/users/lenovo/Sublime/sublime使用方式.html",
+		"/D/users/lenovo/Sublime/code01",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/User/Package Control.sublime-settings",
+		"/D/Program Files (x86)/SublimeText3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/sunqi/Desktop/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/2 3行1列/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/2 3行1列/css/style.css",
+		"/E/2018 全国生态文明信息化教学成果/3 js-index.html",
+		"/D/software/SublimeText3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/sunqi/Desktop/在线测试/index.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/HTML5/8 HTML5/3 画板/2涂鸦板/canvas.js",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/HTML5/8 HTML5/3 画板/2涂鸦板/index.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/2 展开效果.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/1 html代码.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/3 完整效果.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/index.html",
+		"/D/software/SublimeText3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/2018aikecheng/张吉视频/张吉源代码/爱情魔方/index-2.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/3d my/Index.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/temp.html",
+		"/D/!!17 web/html5/1 文件结构.html",
+		"/D/!!17 web/栅格布局/index.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/Index.html",
+		"/C/Users/sunqi/Desktop/11.12-北京林业大学-《网站设计》-A版-（2）/CSS3/2 3d 变换综合案例/Index - 副本.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/5 4行3列/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/4 3行2列/css/style.css",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/4 3行2列/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/3 1行2列/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/3 1行2列/css/style.css",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/1 1行1列/css/style.css",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/1 1行1列/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/clear属性.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-6 浮动定位/1 float属性.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/2 overflow.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-5 文档流定位/1 index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/4-3 盒子模型II/1 margin.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/3 border.html",
+		"/D/2018aikecheng/课程材料/上传 案例/4 CSS布局/1 盒子模型.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/一个容器多个图片.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/多个容器多个图片.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/rotateX.html",
+		"/C/Users/sunqi/Desktop/2涂鸦板/canvas.js",
+		"/C/Users/sunqi/Desktop/2涂鸦板/index.html",
+		"/D/!!17 web/html5/3 画板/2涂鸦板/canvas.js",
+		"/D/!!17 web/html5/3 画板/1 line.html",
+		"/D/!!17 web/html5/3 画板/2涂鸦板/index.html",
+		"/D/!!17 web/html5/2 audio video/video.html",
+		"/D/!!17 web/html5/2 audio veido/vedio.html",
+		"/D/!!17 web/html5/2 audio veido/audio.html",
+		"/D/!!17 web/html5/！画板 手机 电脑 - 副本/canvas.js",
+		"/D/!!17 web/html5/！画板 手机 电脑 - 副本/index.html",
+		"/D/!!17 web/html5/！画板  电脑 - 副本/index.html",
+		"/D/!!17 web/html5/！画板  电脑 - 副本/canvas.js",
+		"/D/!!17 web/html5/！my 画板 电脑/index.html",
+		"/D/!!17 web/html5/！my 画板 电脑/canvas.js",
+		"/D/!!17 web/html5/花瓣/canvas.js",
+		"/D/!!17 web/html5/花瓣/index.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/3d 图片反转/css/style.css",
+		"/D/!!17 web/html5/my 简易画板1.html",
+		"/D/!!17 web/4 html5 & css3/8 3D转换 transform/3d 图片反转/index.html",
+		"/D/!!17 web/html5/my 简易画板2.html",
+		"/D/!!17 web/html5/简易画板.html",
+		"/D/!!17 web/3 CSS/19 旅游网站 分步骤1/step4 调整.html",
+		"/D/2018aikecheng/课程材料/在线测试/test(7)/test/CSS/style.css",
+		"/D/2018aikecheng/课程材料/在线测试/test(7)/test/CSS/reveal.css",
+		"/D/2018aikecheng/课程材料/在线测试/test(7)/test/CSS/fullscreen.css",
+		"/D/javatry/Example5_9.java",
+		"/D/!!17 java/ppt my/第5章 继承、接口和泛型/Example5_2.java",
+		"/D/!!17 java/ppt my/第5章 继承、接口和泛型/Example5_4.java",
+		"/D/javatry/temp.java",
+		"/D/javatry/InnerTry.java",
+		"/D/2018aikecheng/课程材料/在线测试/test(7)/test/在线测试.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-6 列表 表格/2 表格样式/4-2 表格 隔行 奇偶选择器 .html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-6 列表 表格/2 表格样式/2  border-collapse .html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-6 列表 表格/列表样式/a liststyle-image-position.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-5 背景 超链接/2 超链接/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-5 背景 超链接/2 超链接/s5 全部.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-5 背景 超链接/1 背景样式/index.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/5-2 text-decloration 超链接.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/3-1 line-height.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/3-2 line-height垂直居中.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/text-decloration.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/text-align.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/line-height垂直居中.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-4 字体样式/letter-spacing.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/7 class id选择器混用.htm",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/22 选择器的嵌套声明.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/21 多个择器的集体声明.html",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/11 标签与类别选择器混用.htm",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/03 ID选择器.htm",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/02 类别class选择器.htm",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/01 标签选择器.htm",
+		"/D/2018aikecheng/课程材料/上传 案例/3 css样式/3-3 选择器/23 全局选择器的声明.html",
+		"/D/!!17 java/ppt my/第5章 继承、接口和泛型/Example5_9上转型.java",
+		"/D/javatry/ExtendsTry.java",
+		"/D/!!17 java/ppt my/第5章 继承、接口和泛型/ExtendsTry.java",
+		"/D/javatry/Example5_4.java",
+		"/D/javatry/Point.java",
+		"/D/javatry/ex/TestStudent.java",
+		"/D/javatry/Hello.java",
+		"/D/2018aikecheng/课程材料/在线测试/在线测试/index.html",
+		"/D/javatry/Phone.java",
+		"/D/javatry/UsePoint.java",
+		"/D/javatry/ex/Student.java",
+		"/D/javatry/Student.java",
+		"/D/javatry/StuClass.java",
+		"/D/javatry/TestStu.java",
+		"/D/2018aikecheng/课程材料/在线测试/在线测试/JS/emmet.js",
+		"/D/2018aikecheng/课程材料/在线测试/在线测试/JS/comment-fold.js",
+		"/D/2018aikecheng/课程材料/在线测试/在线测试/CSS/style.css",
+		"/D/2018aikecheng/课程材料/在线测试/在线测试/JS/codemirror.js"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"字号",
+			"通过DOM改变样式，字号变为24px。",
+			">",
+			">\n",
+			"点击改变字号",
+			">",
+			"board",
+			"			width:170px;\n			height:190px;",
+			"herf",
+			"mymodel",
+			"label:",
+			"Expand Abbreviation",
+			"ctrl+",
+			"showInfo()",
+			"alt+b",
+			"ctrl+shift+b",
+			"2009年",
+			"foot",
+			"wrap",
+			"段落文字",
+			"></",
+			"段落文字",
+			"p",
+			"div",
+			"Green"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Caffe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4044,
+								4044
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6570.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "textFont.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								643
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5130.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "2DTransform.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "radiusShadow.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "code01.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "code02.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "location.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "code03.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								755,
+								803
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "quickCSS.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2160,
+								2160
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "testJS.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								135
+							],
+							[
+								234,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.443406904358,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 43.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文字与文本</title>
+	<style>
+		p{
+			font-size: 16px;
+			text-indent: 2em;
+			line-height: 1.5em;
+			font-weight: bold;
+		}
+		body{
+			text-align: center;
+			align-items:center;
+		}
+		h1,h2,h3,h4,h5,h6{
+			text-align: center;
+			text-shadow:2px 2px 2px gray;
+		}
+		.font-shadow-box{
+			font-size: 18px;
+			font-weight: 400;
+			text-shadow:2px 2px 8px blue;
+		}
+		.f1{
+			font-size: 20px;
+			letter-spacing: 0.5em;
+			text-shadow: 0 0 3px #F00;
+		}
+		.f2{
+			font-size: 128px;
+			letter-spacing: 1em;
+			color: white;
+			text-shadow: 2px 2px 4px #000;
+			text-align: center;
+		}
+		.nowrap-box{
+			margin: 0 auto;
+			width: 8em;
+			border: 1px solid #333;
+		}
+		.wrap-box{
+			margin: 0 auto;
+			width: 8em;
+			border: 1px solid #333;
+			word-wrap: break-word;
+		}
+		tr:nth-child(odd){
+			background-color:#EAF2D3;
+			text-align: center;
+		}
+		tr:nth-child(even){
+			background-color: #AAFFC3;
+			text-align: center;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		th{
+			background-color: gray;
+		}
+		@font-face{
+			font-family: kastlerFont;
+			src:url('fonts/kastler.ttf'),
+				url('fonts/kastler.eot'),
+				url('fonts/kastler.woff'),
+				url('fonts/kastler.svg');
+		}
+		.test-font-face{
+			font-family: kastlerFont;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>文本与文字</h1>
+	<p>
+		CSS3种关于文本与文字的新特性有：
+		<strong>
+			text-shadow 属性、word-warp 属性 和 @font-face规则
+		</strong>，
+		分别对应文本阴影、长文本换行和网络字体。
+	</p>
+	<h2>text-shadow 属性</h2>
+	<p>
+		text-shadow 属性示例如下：
+	</p>
+	<div class="font-shadow-box">
+		<p>Web Design</p>
+	</div>
+	<p>
+		text-shadow 属性的参数从左到右依次为：
+		<strong>水平偏移&nbsp;&nbsp;垂直偏移&nbsp;&nbsp;阴影大小&nbsp;&nbsp;颜色</strong>，
+		偏移量的取值，同盒子阴影（box-shadow）一样，水平偏移取正数值表示向右偏移，取负数表示向左偏移；
+		垂直偏移取正数指，表示向下偏移，取负数值表示向上偏移。
+	</p>
+	<h3>text-shadow 属性常用文字效果</h3>
+	<hr style="width:50%;height:4px;color:gray;">
+	<h4>文字描边</h4>
+	<div class="f1">
+		<pre>
+			将进酒
+
+			唐代：李白
+			君不见黄河之水天上来，奔流到海不复回。
+			君不见高堂明镜悲白发，朝如青丝暮成雪。
+			人生得意须尽欢，莫使金樽空对月。
+			天生我材必有用，千金散尽还复来。
+			烹羊宰牛且为乐，会须一饮三百杯。
+			岑夫子，丹丘生，将进酒，杯莫停。
+			与君歌一曲，请君为我倾耳听。
+			钟鼓馔玉不足贵，但愿长醉不愿醒。
+			古来圣贤皆寂寞，惟有饮者留其名。
+			陈王昔时宴平乐，斗酒十千恣欢谑。
+			主人何为言少钱，径须沽取对君酌。
+			五花马、千金裘，呼儿将出换美酒，与尔同销万古愁。 
+		</pre>
+	</div>
+	<h4>文字浮雕效果</h4>
+	<div class="f2">浮雕效果</div>
+	<h2>word-warp 属性</h2>
+	<p>
+		可以称为是长文本或长单词的一个折叠效果，允许长单词、URL 强制换行。其可选值有
+		<strong>normal</strong>和<strong>break-word</strong>两种，效果示例如下：
+	</p>
+	<h3>不使用 word-wrap 属性时</h3>
+	<div class="nowrap-box">
+		这里是最长的英文单词：pneumonoultramicroscopicsilicovolcanoconiosis.
+	</div>
+	<h3>使用 word-wrap 属性</h3>
+	<div class="wrap-box">
+		这里是最长的英文单词：pneumonoultramicroscopicsilicovolcanoconiosis.
+	</div>
+	<h2>@font-face 规则</h2>
+	<p>
+		用于在网页上显示特殊字体，如艺术字什么的。利用 @font-face 规格，定义web字体，并引用需要字体的四种文件格式，确保主流浏览器种都能够正常显示该字体。
+	</p>
+	<center>
+		<table>
+			<thead>
+				<tr>
+					<th>字体文件后缀</th>
+					<th>适用浏览器</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>.TTF或.OTF</td>
+					<td>Firefox, Safari, Opera</td>
+				</tr>
+				<tr>
+					<td>.EOF</td>
+					<td>Internet Explore 4.0+</td>
+				</tr>
+				<tr>
+					<td>.SVG</td>
+					<td>Chrome, IPhone</td>
+				</tr>
+				<tr>
+					<td>.WOFF</td>
+					<td>Chrome, Firefox</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+	<p>
+		用于生成字体文件格式的网站：
+		<a href="https://www.fontsquirrel.com/tools/webfont-generator">
+			https://www.fontsquirrel.com/tools/webfont-generator
+		</a>
+		<br>
+		网络字体示例如下：
+	</p>
+	<div class="test-font-face f2">Hello World</div>
+</body>
+</html>
